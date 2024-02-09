@@ -4,10 +4,10 @@ jobs:
   first-job: 
     runs-on: ubuntu-latest
     steps: 
-      - name: |
-              echo "First input"
-              echo "Second input"
-
+      - name: Print Messages
+        run: |
+              echo "Helo World"
+              echo "Good bye"
   
       
         
